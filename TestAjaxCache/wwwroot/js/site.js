@@ -7,20 +7,29 @@
 $('#callAjaxButton').click(() => {
   
     var myData = getWithExpiry("api/test2");  
+    console.log(myData);
     if (myData == null) {
         $.ajax({
             url: 'api/test',          
             success: function (result) {
                 myData = result;
-                setWithExpiry("api/test2",myData,10000)           
-                $('#dataLabel').append(myData);
+                console.log(myData.lenght);
+                setWithExpiry("api/test2", myData, 10000)  
+                for (var i = 0; i < myData.length; i++) {
+                    
+                    $('#dataLabel').append(myData[i].name);              
+                    $('#dataLabel').append(myData[i].city);
+                }
+             
             }
         });
 
     } else {
-        console.log(myData);
-        $('#dataLabel').append(myData.name);
-        $('#dataLabel').append(myData.city);
+        console.log(myData.lenght);
+        for (var i = 0; i < myData.length; i++) {
+            $('#dataLabel').append(myData[i].name);
+            $('#dataLabel').append(myData[i].city);
+        }
     }
   
 
@@ -37,14 +46,14 @@ function setWithExpiry(key, value, ttl) {
         value: value,
         expiry: now.getTime() + ttl
     };
-    console.log(item);
+   // console.log(item);
     localStorage.setItem(key, JSON.stringify(item))
 }
 
 
 function getWithExpiry(key) {
     const itemStr = localStorage.getItem(key)
-    console.log(itemStr);
+   // console.log(itemStr);
     // if the item doesn't exist, return null
     if (!itemStr) {
         return null

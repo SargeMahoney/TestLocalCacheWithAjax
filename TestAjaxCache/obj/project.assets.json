@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AeM\\source\\repos\\TestAjaxCache\\TestAjaxCache\\TestAjaxCache.csproj",
+      "projectUniqueName": "D:\\Programming\\Repositories\\TestLocalCacheWithAjax\\TestAjaxCache\\TestAjaxCache.csproj",
       "projectName": "TestAjaxCache",
-      "projectPath": "C:\\Users\\AeM\\source\\repos\\TestAjaxCache\\TestAjaxCache\\TestAjaxCache.csproj",
+      "projectPath": "D:\\Programming\\Repositories\\TestLocalCacheWithAjax\\TestAjaxCache\\TestAjaxCache.csproj",
       "packagesPath": "C:\\Users\\AeM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AeM\\source\\repos\\TestAjaxCache\\TestAjaxCache\\obj\\",
+      "outputPath": "D:\\Programming\\Repositories\\TestLocalCacheWithAjax\\TestAjaxCache\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

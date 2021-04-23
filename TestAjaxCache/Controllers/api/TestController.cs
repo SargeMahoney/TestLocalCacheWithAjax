@@ -19,9 +19,10 @@ namespace TestAjaxCache.Controllers.api
         }
 
         [HttpGet]
-        public Task<TestModel> Get()
+        public Task<List<TestModel>> Get()
         {
-            return Task.FromResult(new TestModel() { Name = "Prova", City = "Roma" });
+            //   return Task.FromResult(new TestModel() { Name = "Prova", City = "Roma" });
+            return Task.FromResult(new List<TestModel>() { new TestModel() { Name = "Prova", City = "Roma" } , new TestModel() { Name = "Prova2", City = "Torino" } });
         }
     }
 }

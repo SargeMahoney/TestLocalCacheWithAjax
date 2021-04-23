@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6FEnTPmtVHd/kLrVaq090ruJtytaMi2MoxivqjZGceQWSBKVvZKfkPsoAg6UzHR+jOE0HqGkFS/nEG9e4w3s5g==",
+  "dgSpecHash": "qGAyH2Zb+rhh+FQRjPmCQvt0hyzxTXguEZJichMfSw0OVRdpI/7qdPn5x7qTQNwAYmZFLVW5jVj+LXPIFmESkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AeM\\source\\repos\\TestAjaxCache\\TestAjaxCache\\TestAjaxCache.csproj",
+  "projectFilePath": "D:\\Programming\\Repositories\\TestLocalCacheWithAjax\\TestAjaxCache\\TestAjaxCache.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
